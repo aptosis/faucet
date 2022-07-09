@@ -1,0 +1,30 @@
+[package]
+name = "Faucet"
+version = "0.1.0"
+authors = ["Ian Macalinao <ian@aptos.is>"]
+license = "Apache-2.0"
+
+[readme]
+title = "Aptosis Devnet Faucet"
+
+[addresses]
+Faucet = "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98"
+AptosisMinter = "0xd21e5c6e363a5ae4815ac7ef8e08301f36a8af54c08481c2ce3cb137ef28ff80"
+
+[dependencies.MintWrapper]
+git = "https://github.com/aptosis/mint-wrapper.git"
+rev = "68294df9243c7a25c3a2691f0b53940af69864c9"
+
+[dependencies.Deployer]
+git = "https://github.com/DeployDAO/aptos-deployer.git"
+rev = "307657c6fecfb67e7554c9baf308efa41fef9d68"
+
+[dependencies.MoveStdlib]
+git = "https://github.com/aptos-labs/aptos-core.git"
+subdir = "aptos-move/framework/move-stdlib"
+rev = "45140fcf79c2afd3ce8c86bb9952e90632533cbb"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+subdir = "aptos-move/framework/aptos-framework"
+rev = "45140fcf79c2afd3ce8c86bb9952e90632533cbb"

@@ -1,0 +1,91 @@
+[ETH]
+name = "Ether"
+decimals = 9
+
+[BTC]
+name = "Bitcoin"
+decimals = 8
+
+[AVAX]
+name = "Avalanche"
+decimals = 9
+
+[SOL]
+name = "Solana"
+decimals = 9
+
+[USDC]
+name = "USD Coin"
+decimals = 6
+
+[USDT]
+name = "Tether USD"
+decimals = 6
+
+[SBR]
+name = "Saber Protocol Token"
+decimals = 6
+
+[MO]
+name = "Morimoto Restaurant Group"
+decimals = 6
+
+[SHAKE]
+name = "ShakeN Token"
+decimals = 6
+
+[DAT]
+name = "Datum Shares"
+decimals = 7
+
+[TING]
+name = "Tinghua Investment Group"
+decimals = 7
+
+[BAMBA]
+name = "Bamba Rewards"
+decimals = 8
+
+[AVERY]
+name = "Avery Dennison Corp Class A Shares"
+decimals = 3
+
+[CHING]
+name = "Ching Cash"
+decimals = 6
+
+[KSAM]
+name = "Kysama Protocol Token"
+decimals = 7
+
+[JAIN]
+name = "Jain Street DAO"
+decimals = 8
+
+[KNV]
+name = "Kanav Korean Holdings"
+decimals = 6
+
+[BAUM]
+name = "Ebaumsworld"
+decimals = 6
+
+[SHAM]
+name = "Shamu Protocol Token"
+decimals = 6
+
+[SBF]
+name = "Salaam Bankorus Freud"
+decimals = 8
+
+[WSUI]
+name = "Wrapped SUI"
+decimals = 6
+
+[NEAR]
+name = "Near Protocol"
+decimals = 7
+
+[FAR]
+name = "Far Protocol"
+decimals = 7

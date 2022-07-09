@@ -1,0 +1,265 @@
+{
+  "name": "Aptosis Coin List",
+  "tags": {},
+  "timestamp": "2022-07-09T19:56:19.044381642Z",
+  "tokens": [
+    {
+      "name": "Avalanche",
+      "symbol": "AVAX",
+      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/avax.svg",
+      "decimals": 9,
+      "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::AVAX",
+      "chainId": 201,
+      "tags": [
+        "aptosis-faucet"
+      ]
+    },
+    {
+      "name": "Avery Dennison Corp Class A Shares",
+      "symbol": "AVERY",
+      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/avery.svg",
+      "decimals": 3,
+      "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::AVERY",
+      "chainId": 201,
+      "tags": [
+        "aptosis-faucet"
+      ]
+    },
+    {
+      "name": "Bamba Rewards",
+      "symbol": "BAMBA",
+      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/bamba.svg",
+      "decimals": 8,
+      "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::BAMBA",
+      "chainId": 201,
+      "tags": [
+        "aptosis-faucet"
+      ]
+    },
+    {
+      "name": "Ebaumsworld",
+      "symbol": "BAUM",
+      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/baum.svg",
+      "decimals": 6,
+      "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::BAUM",
+      "chainId": 201,
+      "tags": [
+        "aptosis-faucet"
+      ]
+    },
+    {
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/btc.svg",
+      "decimals": 8,
+      "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::BTC",
+      "chainId": 201,
+      "tags": [
+        "aptosis-faucet"
+      ]
+    },
+    {
+      "name": "Ching Cash",
+      "symbol": "CHING",
+      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/ching.svg",
+      "decimals": 6,
+      "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::CHING",
+      "chainId": 201,
+      "tags": [
+        "aptosis-faucet"
+      ]
+    },
+    {
+      "name": "Datum Shares",
+      "symbol": "DAT",
+      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/dat.svg",
+      "decimals": 7,
+      "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::DAT",
+      "chainId": 201,
+      "tags": [
+        "aptosis-faucet"
+      ]
+    },
+    {
+      "name": "Ether",
+      "symbol": "ETH",
+      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/eth.svg",
+      "decimals": 9,
+      "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::ETH",
+      "chainId": 201,
+      "tags": [
+        "aptosis-faucet"
+      ]
+    },
+    {
+      "name": "Far Protocol",
+      "symbol": "FAR",
+      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/far.svg",
+      "decimals": 7,
+      "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::FAR",
+      "chainId": 201,
+      "tags": [
+        "aptosis-faucet"
+      ]
+    },
+    {
+      "name": "Jain Street DAO",
+      "symbol": "JAIN",
+      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/jain.svg",
+      "decimals": 8,
+      "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::JAIN",
+      "chainId": 201,
+      "tags": [
+        "aptosis-faucet"
+      ]
+    },
+    {
+      "name": "Kanav Korean Holdings",
+      "symbol": "KNV",
+      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/knv.svg",
+      "decimals": 6,
+      "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::KNV",
+      "chainId": 201,
+      "tags": [
+        "aptosis-faucet"
+      ]
+    },
+    {
+      "name": "Kysama Protocol Token",
+      "symbol": "KSAM",
+      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/ksam.svg",
+      "decimals": 7,
+      "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::KSAM",
+      "chainId": 201,
+      "tags": [
+        "aptosis-faucet"
+      ]
+    },
+    {
+      "name": "Morimoto Restaurant Group",
+      "symbol": "MO",
+      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/mo.svg",
+      "decimals": 6,
+      "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::MO",
+      "chainId": 201,
+      "tags": [
+        "aptosis-faucet"
+      ]
+    },
+    {
+      "name": "Near Protocol",
+      "symbol": "NEAR",
+      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/near.svg",
+      "decimals": 7,
+      "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::NEAR",
+      "chainId": 201,
+      "tags": [
+        "aptosis-faucet"
+      ]
+    },
+    {
+      "name": "Salaam Bankorus Freud",
+      "symbol": "SBF",
+      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/sbf.svg",
+      "decimals": 8,
+      "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::SBF",
+      "chainId": 201,
+      "tags": [
+        "aptosis-faucet"
+      ]
+    },
+    {
+      "name": "Saber Protocol Token",
+      "symbol": "SBR",
+      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/sbr.svg",
+      "decimals": 6,
+      "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::SBR",
+      "chainId": 201,
+      "tags": [
+        "aptosis-faucet"
+      ]
+    },
+    {
+      "name": "ShakeN Token",
+      "symbol": "SHAKE",
+      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/shake.svg",
+      "decimals": 6,
+      "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::SHAKE",
+      "chainId": 201,
+      "tags": [
+        "aptosis-faucet"
+      ]
+    },
+    {
+      "name": "Shamu Protocol Token",
+      "symbol": "SHAM",
+      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/sham.svg",
+      "decimals": 6,
+      "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::SHAM",
+      "chainId": 201,
+      "tags": [
+        "aptosis-faucet"
+      ]
+    },
+    {
+      "name": "Solana",
+      "symbol": "SOL",
+      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/sol.svg",
+      "decimals": 9,
+      "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::SOL",
+      "chainId": 201,
+      "tags": [
+        "aptosis-faucet"
+      ]
+    },
+    {
+      "name": "Tinghua Investment Group",
+      "symbol": "TING",
+      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/ting.svg",
+      "decimals": 7,
+      "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::TING",
+      "chainId": 201,
+      "tags": [
+        "aptosis-faucet"
+      ]
+    },
+    {
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/usdc.svg",
+      "decimals": 6,
+      "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::USDC",
+      "chainId": 201,
+      "tags": [
+        "aptosis-faucet"
+      ]
+    },
+    {
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/usdt.svg",
+      "decimals": 6,
+      "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::USDT",
+      "chainId": 201,
+      "tags": [
+        "aptosis-faucet"
+      ]
+    },
+    {
+      "name": "Wrapped SUI",
+      "symbol": "WSUI",
+      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/wsui.svg",
+      "decimals": 6,
+      "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::WSUI",
+      "chainId": 201,
+      "tags": [
+        "aptosis-faucet"
+      ]
+    }
+  ],
+  "version": {
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
