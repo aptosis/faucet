@@ -50,12 +50,16 @@ pub fn make_coin_info(
             module: ident_str!("Faucet").to_owned(),
             name: Identifier::new(symbol)?,
             type_params: vec![],
-        }.into(),
+        }
+        .into(),
         name: name.into(),
         symbol: symbol.into(),
         decimals: *decimals,
         extensions: None,
-        logo_uri: Some(Url::parse(&format!("https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/{}.svg", symbol.to_lowercase()))?),
+        logo_uri: Some(Url::parse(&format!(
+            "https://raw.githubusercontent.com/aptosis/aptos-coin-list/master/assets/devnet/{}.svg",
+            symbol.to_lowercase()
+        ))?),
         tags: Some(vec!["aptosis-faucet".into()]),
     })
 }

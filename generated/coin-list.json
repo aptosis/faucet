@@ -1,12 +1,12 @@
 {
   "name": "Aptosis Coin List",
   "tags": {},
-  "timestamp": "2022-07-09T19:56:19.044381642Z",
+  "timestamp": "2022-07-09T20:00:19.274014224Z",
   "tokens": [
     {
       "name": "Avalanche",
       "symbol": "AVAX",
-      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/avax.svg",
+      "logoURI": "https://raw.githubusercontent.com/aptosis/aptos-coin-list/master/assets/devnet/avax.svg",
       "decimals": 9,
       "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::AVAX",
       "chainId": 201,
@@ -17,7 +17,7 @@
     {
       "name": "Avery Dennison Corp Class A Shares",
       "symbol": "AVERY",
-      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/avery.svg",
+      "logoURI": "https://raw.githubusercontent.com/aptosis/aptos-coin-list/master/assets/devnet/avery.svg",
       "decimals": 3,
       "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::AVERY",
       "chainId": 201,
@@ -28,7 +28,7 @@
     {
       "name": "Bamba Rewards",
       "symbol": "BAMBA",
-      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/bamba.svg",
+      "logoURI": "https://raw.githubusercontent.com/aptosis/aptos-coin-list/master/assets/devnet/bamba.svg",
       "decimals": 8,
       "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::BAMBA",
       "chainId": 201,
@@ -39,7 +39,7 @@
     {
       "name": "Ebaumsworld",
       "symbol": "BAUM",
-      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/baum.svg",
+      "logoURI": "https://raw.githubusercontent.com/aptosis/aptos-coin-list/master/assets/devnet/baum.svg",
       "decimals": 6,
       "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::BAUM",
       "chainId": 201,
@@ -50,7 +50,7 @@
     {
       "name": "Bitcoin",
       "symbol": "BTC",
-      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/btc.svg",
+      "logoURI": "https://raw.githubusercontent.com/aptosis/aptos-coin-list/master/assets/devnet/btc.svg",
       "decimals": 8,
       "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::BTC",
       "chainId": 201,
@@ -61,7 +61,7 @@
     {
       "name": "Ching Cash",
       "symbol": "CHING",
-      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/ching.svg",
+      "logoURI": "https://raw.githubusercontent.com/aptosis/aptos-coin-list/master/assets/devnet/ching.svg",
       "decimals": 6,
       "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::CHING",
       "chainId": 201,
@@ -72,7 +72,7 @@
     {
       "name": "Datum Shares",
       "symbol": "DAT",
-      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/dat.svg",
+      "logoURI": "https://raw.githubusercontent.com/aptosis/aptos-coin-list/master/assets/devnet/dat.svg",
       "decimals": 7,
       "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::DAT",
       "chainId": 201,
@@ -83,7 +83,7 @@
     {
       "name": "Ether",
       "symbol": "ETH",
-      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/eth.svg",
+      "logoURI": "https://raw.githubusercontent.com/aptosis/aptos-coin-list/master/assets/devnet/eth.svg",
       "decimals": 9,
       "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::ETH",
       "chainId": 201,
@@ -94,7 +94,7 @@
     {
       "name": "Far Protocol",
       "symbol": "FAR",
-      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/far.svg",
+      "logoURI": "https://raw.githubusercontent.com/aptosis/aptos-coin-list/master/assets/devnet/far.svg",
       "decimals": 7,
       "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::FAR",
       "chainId": 201,
@@ -105,7 +105,7 @@
     {
       "name": "Jain Street DAO",
       "symbol": "JAIN",
-      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/jain.svg",
+      "logoURI": "https://raw.githubusercontent.com/aptosis/aptos-coin-list/master/assets/devnet/jain.svg",
       "decimals": 8,
       "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::JAIN",
       "chainId": 201,
@@ -116,7 +116,7 @@
     {
       "name": "Kanav Korean Holdings",
       "symbol": "KNV",
-      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/knv.svg",
+      "logoURI": "https://raw.githubusercontent.com/aptosis/aptos-coin-list/master/assets/devnet/knv.svg",
       "decimals": 6,
       "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::KNV",
       "chainId": 201,
@@ -127,7 +127,7 @@
     {
       "name": "Kysama Protocol Token",
       "symbol": "KSAM",
-      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/ksam.svg",
+      "logoURI": "https://raw.githubusercontent.com/aptosis/aptos-coin-list/master/assets/devnet/ksam.svg",
       "decimals": 7,
       "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::KSAM",
       "chainId": 201,
@@ -138,7 +138,7 @@
     {
       "name": "Morimoto Restaurant Group",
       "symbol": "MO",
-      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/mo.svg",
+      "logoURI": "https://raw.githubusercontent.com/aptosis/aptos-coin-list/master/assets/devnet/mo.svg",
       "decimals": 6,
       "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::MO",
       "chainId": 201,
@@ -149,7 +149,7 @@
     {
       "name": "Near Protocol",
       "symbol": "NEAR",
-      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/near.svg",
+      "logoURI": "https://raw.githubusercontent.com/aptosis/aptos-coin-list/master/assets/devnet/near.svg",
       "decimals": 7,
       "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::NEAR",
       "chainId": 201,
@@ -160,7 +160,7 @@
     {
       "name": "Salaam Bankorus Freud",
       "symbol": "SBF",
-      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/sbf.svg",
+      "logoURI": "https://raw.githubusercontent.com/aptosis/aptos-coin-list/master/assets/devnet/sbf.svg",
       "decimals": 8,
       "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::SBF",
       "chainId": 201,
@@ -171,7 +171,7 @@
     {
       "name": "Saber Protocol Token",
       "symbol": "SBR",
-      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/sbr.svg",
+      "logoURI": "https://raw.githubusercontent.com/aptosis/aptos-coin-list/master/assets/devnet/sbr.svg",
       "decimals": 6,
       "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::SBR",
       "chainId": 201,
@@ -182,7 +182,7 @@
     {
       "name": "ShakeN Token",
       "symbol": "SHAKE",
-      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/shake.svg",
+      "logoURI": "https://raw.githubusercontent.com/aptosis/aptos-coin-list/master/assets/devnet/shake.svg",
       "decimals": 6,
       "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::SHAKE",
       "chainId": 201,
@@ -193,7 +193,7 @@
     {
       "name": "Shamu Protocol Token",
       "symbol": "SHAM",
-      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/sham.svg",
+      "logoURI": "https://raw.githubusercontent.com/aptosis/aptos-coin-list/master/assets/devnet/sham.svg",
       "decimals": 6,
       "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::SHAM",
       "chainId": 201,
@@ -204,7 +204,7 @@
     {
       "name": "Solana",
       "symbol": "SOL",
-      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/sol.svg",
+      "logoURI": "https://raw.githubusercontent.com/aptosis/aptos-coin-list/master/assets/devnet/sol.svg",
       "decimals": 9,
       "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::SOL",
       "chainId": 201,
@@ -215,7 +215,7 @@
     {
       "name": "Tinghua Investment Group",
       "symbol": "TING",
-      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/ting.svg",
+      "logoURI": "https://raw.githubusercontent.com/aptosis/aptos-coin-list/master/assets/devnet/ting.svg",
       "decimals": 7,
       "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::TING",
       "chainId": 201,
@@ -226,7 +226,7 @@
     {
       "name": "USD Coin",
       "symbol": "USDC",
-      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/usdc.svg",
+      "logoURI": "https://raw.githubusercontent.com/aptosis/aptos-coin-list/master/assets/devnet/usdc.svg",
       "decimals": 6,
       "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::USDC",
       "chainId": 201,
@@ -237,7 +237,7 @@
     {
       "name": "Tether USD",
       "symbol": "USDT",
-      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/usdt.svg",
+      "logoURI": "https://raw.githubusercontent.com/aptosis/aptos-coin-list/master/assets/devnet/usdt.svg",
       "decimals": 6,
       "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::USDT",
       "chainId": 201,
@@ -248,7 +248,7 @@
     {
       "name": "Wrapped SUI",
       "symbol": "WSUI",
-      "logoURI": "https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/wsui.svg",
+      "logoURI": "https://raw.githubusercontent.com/aptosis/aptos-coin-list/master/assets/devnet/wsui.svg",
       "decimals": 6,
       "address": "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98::Faucet::WSUI",
       "chainId": 201,
