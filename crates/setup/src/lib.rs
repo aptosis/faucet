@@ -57,7 +57,7 @@ pub fn make_coin_info(
         decimals: *decimals,
         extensions: None,
         logo_uri: Some(Url::parse(&format!(
-            "https://raw.githubusercontent.com/aptosis/aptos-coin-list/master/assets/devnet/{}.svg",
+            "https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/{}.svg",
             symbol.to_lowercase()
         ))?),
         tags: Some(vec!["aptosis-faucet".into()]),
