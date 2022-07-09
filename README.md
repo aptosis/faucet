@@ -11,9 +11,6 @@ To use Faucet in your code, add the following to the `[addresses]` section of yo
 Faucet = "0x21f1a02d049ce002d6bd230658e14c1fd1afee7958d1b9b15c1164bb1ac74770"
 ```
 
-
-
 ## License
 
 Apache-2.0
-
