@@ -1,8 +1,13 @@
 [package]
 name = "setup"
-description = "Sets up the Aptosis faucet."
 version = "0.1.0"
+description = "Sets up the Aptosis faucet."
+homepage = "https://aptos.is"
+repository = "https://github.com/aptosis/faucet"
+authors = ["Ian Macalinao <ian@aptos.is>"]
+license = "Apache-2.0"
 edition = "2021"
+keywords = ["move", "aptos", "account", "cli"]
 
 [dependencies]
 anyhow = "1.0.42"
