@@ -47,7 +47,7 @@ pub fn make_coin_info(
         chain_id: coinlist::ChainID::AptosDevnet as u32,
         address: StructTag {
             address: *address,
-            module: ident_str!("Faucet").to_owned(),
+            module: ident_str!("DevCoin").to_owned(),
             name: Identifier::new(symbol)?,
             type_params: vec![],
         }
