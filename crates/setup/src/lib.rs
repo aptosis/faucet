@@ -41,9 +41,9 @@ impl From<CoinInfo> for DevCoinInfo {
 
 pub fn make_test_coin() -> Result<CoinInfo> {
     Ok(CoinInfo {
-        name: "Test Coin".to_string(),
-        symbol: "TST".to_string(),
-        logo_uri: Some("https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/apt.svg".to_string().parse()?),
+        name: "Aptos".to_string(),
+        symbol: "APTOS".to_string(),
+        logo_uri: Some("https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/apt.svg".to_string().parse()?),
         decimals: 4,
         address: parse_struct_tag("0x1::TestCoin::TestCoin")?.into(),
         chain_id: ChainID::AptosDevnet as u32,
