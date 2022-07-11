@@ -1,9 +1,10 @@
 use std::collections::BTreeMap;
 
 use anyhow::*;
-use coinlist::{CoinInfo, CoinList};
+use coinlist::{ChainID, CoinInfo, CoinList};
 use move_deps::move_core_types::{
-    account_address::AccountAddress, ident_str, identifier::Identifier, language_storage::StructTag,
+    account_address::AccountAddress, ident_str, identifier::Identifier,
+    language_storage::StructTag, parser::parse_struct_tag,
 };
 use serde::{Deserialize, Serialize};
 use tera::Tera;
@@ -36,6 +37,19 @@ impl From<CoinInfo> for DevCoinInfo {
             coin,
         }
     }
+}
+
+pub fn make_test_coin() -> Result<CoinInfo> {
+    Ok(CoinInfo {
+        name: "Test Coin".to_string(),
+        symbol: "TST".to_string(),
+        logo_uri: Some("https://raw.githubusercontent.com/movingco/aptos-coin-list/master/assets/devnet/apt.svg".to_string().parse()?),
+        decimals: 4,
+        address: parse_struct_tag("0x1::TestCoin::TestCoin")?.into(),
+        chain_id: ChainID::AptosDevnet as u32,
+        tags: None,
+        extensions: None,
+    })
 }
 
 pub fn make_coin_info(
@@ -74,6 +88,7 @@ where
         .collect::<Result<Vec<_>>>()?;
     let mut coin_list = CoinList::new("Aptosis Coin List");
     coin_list.tokens = tokens;
+    coin_list.tokens.push(make_test_coin()?);
     Ok(coin_list)
 }
 
