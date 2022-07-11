@@ -1,8 +1,5 @@
 #!/usr/bin/env -S bash -xe
 
-# Create the Faucet resource account
-aptos-create-resource-account faucet
-
 # Fund the newly created account
 aptos account fund --account {{ faucet_address }}
 

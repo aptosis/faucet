@@ -32,7 +32,7 @@ pub struct DevCoinInfo {
 impl From<CoinInfo> for DevCoinInfo {
     fn from(coin: CoinInfo) -> Self {
         Self {
-            hard_cap: coin.decimals as u64 * 1_000_000_000,
+            hard_cap: 10_u64.pow(coin.decimals.into()) * 1_000_000_000,
             coin,
         }
     }
@@ -101,7 +101,7 @@ impl Setup {
         let ctx = SetupContext {
             faucet_address: addr.to_hex_literal(),
             coins,
-            aptosis_minter_address: aptosis_minter.to_hex_literal(),
+            aptosis_minter_address: aptosis_minter.short_str_lossless(),
         };
         Ok(Self { tera, ctx })
     }

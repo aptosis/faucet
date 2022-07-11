@@ -8,7 +8,7 @@ license = "Apache-2.0"
 title = "Aptosis Devnet Faucet"
 
 [addresses]
-Faucet = "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98"
+Faucet = "0x6fdf5c5cf431d5db75b2b53f0df8aa6687056d47ea7a588e9c512dd2b7a810a8"
 AptosisMinter = "0xd21e5c6e363a5ae4815ac7ef8e08301f36a8af54c08481c2ce3cb137ef28ff80"
 
 [dependencies.MintWrapper]
