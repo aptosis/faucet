@@ -1,5 +1,5 @@
 [package]
-name = "Faucet"
+name = "faucet"
 version = "0.1.0"
 authors = ["Ian Macalinao <ian@aptos.is>"]
 license = "Apache-2.0"
@@ -8,23 +8,23 @@ license = "Apache-2.0"
 title = "Aptosis Devnet Faucet"
 
 [addresses]
-Faucet = "0x6fdf5c5cf431d5db75b2b53f0df8aa6687056d47ea7a588e9c512dd2b7a810a8"
+faucet = "0x6fdf5c5cf431d5db75b2b53f0df8aa6687056d47ea7a588e9c512dd2b7a810a8"
 AptosisMinter = "0xd21e5c6e363a5ae4815ac7ef8e08301f36a8af54c08481c2ce3cb137ef28ff80"
 
-[dependencies.MintWrapper]
+[dependencies.mint_wrapper]
 git = "https://github.com/aptosis/mint-wrapper.git"
-rev = "68294df9243c7a25c3a2691f0b53940af69864c9"
+rev = "eedd56a2fbac1e2bbe2ee377fe2bbaece94b573d"
 
-[dependencies.Deployer]
+[dependencies.deployer]
 git = "https://github.com/DeployDAO/aptos-deployer.git"
-rev = "307657c6fecfb67e7554c9baf308efa41fef9d68"
+rev = "8d863c9e28dd0744b8013b7799387faabbb0a286"
 
 [dependencies.MoveStdlib]
 git = "https://github.com/aptos-labs/aptos-core.git"
 subdir = "aptos-move/framework/move-stdlib"
-rev = "45140fcf79c2afd3ce8c86bb9952e90632533cbb"
+rev = "a3143756d498821f4f51a5970c7ea35d483938b3"
 
 [dependencies.AptosFramework]
 git = "https://github.com/aptos-labs/aptos-core.git"
 subdir = "aptos-move/framework/aptos-framework"
-rev = "45140fcf79c2afd3ce8c86bb9952e90632533cbb"
+rev = "a3143756d498821f4f51a5970c7ea35d483938b3"

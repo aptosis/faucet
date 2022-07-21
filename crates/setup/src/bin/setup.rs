@@ -39,7 +39,7 @@ fn main() -> Result<()> {
     let move_str = setup.generate_move()?;
     let init_script = setup.generate_init_script()?;
 
-    std::fs::write("sources/DevCoin.move", &move_str)?;
+    std::fs::write("sources/dev_coin.move", &move_str)?;
     std::fs::write("scripts/init_tokens.sh", &init_script)?;
     std::fs::set_permissions("scripts/init_tokens.sh", PermissionsExt::from_mode(0o755))?;
 

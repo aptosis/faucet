@@ -1,7 +1,7 @@
 {
   "name": "Aptosis Coin List",
   "tags": {},
-  "timestamp": "2022-07-11T02:29:27.390830345Z",
+  "timestamp": "2022-07-21T23:25:11.820990700Z",
   "tokens": [
     {
       "name": "Avalanche",
@@ -53,17 +53,6 @@
       "logoURI": "https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/btc.svg",
       "decimals": 8,
       "address": "0x6fdf5c5cf431d5db75b2b53f0df8aa6687056d47ea7a588e9c512dd2b7a810a8::DevCoin::BTC",
-      "chainId": 201,
-      "tags": [
-        "aptosis-faucet"
-      ]
-    },
-    {
-      "name": "Ching Cash",
-      "symbol": "CHING",
-      "logoURI": "https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/ching.svg",
-      "decimals": 6,
-      "address": "0x6fdf5c5cf431d5db75b2b53f0df8aa6687056d47ea7a588e9c512dd2b7a810a8::DevCoin::CHING",
       "chainId": 201,
       "tags": [
         "aptosis-faucet"
@@ -255,6 +244,14 @@
       "tags": [
         "aptosis-faucet"
       ]
+    },
+    {
+      "name": "Aptos",
+      "symbol": "APTOS",
+      "logoURI": "https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/apt.svg",
+      "decimals": 4,
+      "address": "0x1::TestCoin::TestCoin",
+      "chainId": 201
     }
   ],
   "version": {

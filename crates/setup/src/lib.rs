@@ -1,5 +1,14 @@
-use std::collections::BTreeMap;
-
+//! Setups up the Aptosis faucet.
+//!
+//! # Usage
+//!
+//! Create the initialization scripts like so:
+//!
+//! ```bash
+//! cargo run --bin setup
+//! ```
+//!
+//! Then run `./scripts/init_tokens.sh`.
 use anyhow::*;
 use coinlist::{ChainID, CoinInfo, CoinList};
 use move_deps::move_core_types::{
@@ -7,6 +16,7 @@ use move_deps::move_core_types::{
     language_storage::StructTag, parser::parse_struct_tag,
 };
 use serde::{Deserialize, Serialize};
+use std::collections::BTreeMap;
 use tera::Tera;
 use url::Url;
 
@@ -104,7 +114,7 @@ impl Setup {
         aptosis_minter: AccountAddress,
     ) -> Result<Self> {
         let mut tera = Tera::default();
-        tera.add_raw_template("DevCoin", include_str!("templates/DevCoin.tpl.move"))?;
+        tera.add_raw_template("dev_coin", include_str!("templates/dev_coin.tpl.move"))?;
         tera.add_raw_template("init_tokens", include_str!("templates/init_tokens.tpl.sh"))?;
 
         let coins = coin_list
@@ -124,7 +134,7 @@ impl Setup {
     pub fn generate_move(&self) -> Result<String> {
         let result = self
             .tera
-            .render("DevCoin", &tera::Context::from_serialize(&self.ctx)?)?;
+            .render("dev_coin", &tera::Context::from_serialize(&self.ctx)?)?;
         Ok(result)
     }
 

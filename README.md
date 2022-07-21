@@ -2,13 +2,17 @@
 
 A coin faucet for the Aptos devnet.
 
+# Setup
+
+To update this repo, run `cargo run --bin setup && ./scripts/init_tokens.sh`.
+
 ## Installation
 
-To use Faucet in your code, add the following to the `[addresses]` section of your `Move.toml`:
+To use faucet in your code, add the following to the `[addresses]` section of your `Move.toml`:
 
 ```toml
 [addresses]
-Faucet = "0x6718cd7a0bd0e8a34ea586640f4c55910514c2acf495a0453575bbc8c556cd98"
+faucet = "0x6fdf5c5cf431d5db75b2b53f0df8aa6687056d47ea7a588e9c512dd2b7a810a8"
 ```
 
 ## License

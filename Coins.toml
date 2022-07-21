@@ -50,10 +50,6 @@ decimals = 8
 name = "Avery Dennison Corp Class A Shares"
 decimals = 3
 
-[CHING]
-name = "Ching Cash"
-decimals = 6
-
 [KSAM]
 name = "Kysama Protocol Token"
 decimals = 7

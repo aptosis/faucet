@@ -24,8 +24,6 @@ aptos-move-run --function-id "0x6fdf5c5cf431d5db75b2b53f0df8aa6687056d47ea7a588e
 
 aptos-move-run --function-id "0x6fdf5c5cf431d5db75b2b53f0df8aa6687056d47ea7a588e9c512dd2b7a810a8::DevCoin::init_btc"
 
-aptos-move-run --function-id "0x6fdf5c5cf431d5db75b2b53f0df8aa6687056d47ea7a588e9c512dd2b7a810a8::DevCoin::init_ching"
-
 aptos-move-run --function-id "0x6fdf5c5cf431d5db75b2b53f0df8aa6687056d47ea7a588e9c512dd2b7a810a8::DevCoin::init_dat"
 
 aptos-move-run --function-id "0x6fdf5c5cf431d5db75b2b53f0df8aa6687056d47ea7a588e9c512dd2b7a810a8::DevCoin::init_eth"
@@ -59,4 +57,6 @@ aptos-move-run --function-id "0x6fdf5c5cf431d5db75b2b53f0df8aa6687056d47ea7a588e
 aptos-move-run --function-id "0x6fdf5c5cf431d5db75b2b53f0df8aa6687056d47ea7a588e9c512dd2b7a810a8::DevCoin::init_usdt"
 
 aptos-move-run --function-id "0x6fdf5c5cf431d5db75b2b53f0df8aa6687056d47ea7a588e9c512dd2b7a810a8::DevCoin::init_wsui"
+
+aptos-move-run --function-id "0x6fdf5c5cf431d5db75b2b53f0df8aa6687056d47ea7a588e9c512dd2b7a810a8::DevCoin::init_aptos"
 
