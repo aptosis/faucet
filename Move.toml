@@ -8,16 +8,17 @@ license = "Apache-2.0"
 title = "Aptosis Devnet Faucet"
 
 [addresses]
-faucet = "0x6fdf5c5cf431d5db75b2b53f0df8aa6687056d47ea7a588e9c512dd2b7a810a8"
+faucet_deployer = "0x79e36c002288acc5e31f34e959320cab9a478ba35d63cf6a5c798ea8d8a550a0"
+faucet = "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0"
 AptosisMinter = "0xd21e5c6e363a5ae4815ac7ef8e08301f36a8af54c08481c2ce3cb137ef28ff80"
 
 [dependencies.mint_wrapper]
 git = "https://github.com/aptosis/mint-wrapper.git"
-rev = "eedd56a2fbac1e2bbe2ee377fe2bbaece94b573d"
+rev = "5bd6cc5894f0c0cdb2304a7d49a7ba162f99e49a"
 
 [dependencies.deployer]
 git = "https://github.com/DeployDAO/aptos-deployer.git"
-rev = "8d863c9e28dd0744b8013b7799387faabbb0a286"
+rev = "e40240fce3c15eab6de511337645d6f700d81c9a"
 
 [dependencies.MoveStdlib]
 git = "https://github.com/aptos-labs/aptos-core.git"

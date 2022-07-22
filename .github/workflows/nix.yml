@@ -15,8 +15,8 @@ jobs:
       - uses: cachix/install-nix-action@v17
       - uses: cachix/cachix-action@v10
         with:
-          name: deploydao
+          name: aptos
           authToken: ${{ secrets.CACHIX_AUTH_TOKEN }}
-          extraPullNames: aptos, m
+          extraPullNames: m
       - run: nix flake check -v --show-trace --no-update-lock-file
       - run: nix develop -c echo success
