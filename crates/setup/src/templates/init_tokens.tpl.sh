@@ -8,11 +8,11 @@ aptos-publish --profile faucet
 
 # Initialize the Faucet
 aptos-move-run \
-    --function-id "{{ faucet_address }}::Faucet::initialize" \
+    --function-id "{{ faucet_address }}::faucet::initialize" \
     --args address:{{ aptosis_minter_address }} \
     --profile faucet
 
 # Initialize our coins
 {% for coin in coins %}
-aptos-move-run --function-id "{{ faucet_address }}::DevCoin::init_{{ coin.symbol | lower }}"
+aptos-move-run --function-id "{{ faucet_address }}::dev_coin::init_{{ coin.symbol | lower }}"
 {% endfor %}

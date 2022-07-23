@@ -8,9 +8,9 @@ license = "Apache-2.0"
 title = "Aptosis Devnet Faucet"
 
 [addresses]
-faucet_deployer = "0x79e36c002288acc5e31f34e959320cab9a478ba35d63cf6a5c798ea8d8a550a0"
-faucet = "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0"
-AptosisMinter = "0xd21e5c6e363a5ae4815ac7ef8e08301f36a8af54c08481c2ce3cb137ef28ff80"
+faucet_deployer = "0xaaf564fd74f1e45c0a61d55e6cb5c1b8ab4af7fb28f56cefca682c6eebc67008"
+faucet = "0x2522bca997f581b007c8977992f4e38cd756bf11fc263d29a4275b703259a21a"
+AptosisMinter = "0xb3dfbce7ba1564267489eba0206ed21ce723c4ba89913fbe18b1bdad8155519e"
 
 [dependencies.mint_wrapper]
 git = "https://github.com/aptosis/mint-wrapper.git"
