@@ -55,7 +55,7 @@ pub fn make_test_coin() -> Result<CoinInfo> {
         symbol: "APTOS".to_string(),
         logo_uri: Some("https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/apt.svg".to_string().parse()?),
         decimals: 4,
-        address: parse_struct_tag("0x1::TestCoin::TestCoin")?.into(),
+        address: parse_struct_tag("0x1::test_coin::TestCoin")?.into(),
         chain_id: ChainID::AptosDevnet as u32,
         tags: None,
         extensions: None,
@@ -71,7 +71,7 @@ pub fn make_coin_info(
         chain_id: coinlist::ChainID::AptosDevnet as u32,
         address: StructTag {
             address: *address,
-            module: ident_str!("DevCoin").to_owned(),
+            module: ident_str!("dev_coin").to_owned(),
             name: Identifier::new(symbol)?,
             type_params: vec![],
         }

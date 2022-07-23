@@ -1,14 +1,14 @@
 {
   "name": "Aptosis Coin List",
   "tags": {},
-  "timestamp": "2022-07-23T17:00:09.719663746Z",
+  "timestamp": "2022-07-23T17:29:18.051829444Z",
   "tokens": [
     {
       "name": "Aptos",
       "symbol": "APTOS",
       "logoURI": "https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/apt.svg",
       "decimals": 4,
-      "address": "0x1::TestCoin::TestCoin",
+      "address": "0x1::test_coin::TestCoin",
       "chainId": 201
     },
     {
@@ -16,7 +16,7 @@
       "symbol": "AVAX",
       "logoURI": "https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/avax.svg",
       "decimals": 9,
-      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::DevCoin::AVAX",
+      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::dev_coin::AVAX",
       "chainId": 201,
       "tags": [
         "aptosis-faucet"
@@ -27,7 +27,7 @@
       "symbol": "AVERY",
       "logoURI": "https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/avery.svg",
       "decimals": 3,
-      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::DevCoin::AVERY",
+      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::dev_coin::AVERY",
       "chainId": 201,
       "tags": [
         "aptosis-faucet"
@@ -38,7 +38,7 @@
       "symbol": "BAMBA",
       "logoURI": "https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/bamba.svg",
       "decimals": 8,
-      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::DevCoin::BAMBA",
+      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::dev_coin::BAMBA",
       "chainId": 201,
       "tags": [
         "aptosis-faucet"
@@ -49,7 +49,7 @@
       "symbol": "BAUM",
       "logoURI": "https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/baum.svg",
       "decimals": 6,
-      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::DevCoin::BAUM",
+      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::dev_coin::BAUM",
       "chainId": 201,
       "tags": [
         "aptosis-faucet"
@@ -60,7 +60,7 @@
       "symbol": "BTC",
       "logoURI": "https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/btc.svg",
       "decimals": 8,
-      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::DevCoin::BTC",
+      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::dev_coin::BTC",
       "chainId": 201,
       "tags": [
         "aptosis-faucet"
@@ -71,7 +71,7 @@
       "symbol": "DAT",
       "logoURI": "https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/dat.svg",
       "decimals": 7,
-      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::DevCoin::DAT",
+      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::dev_coin::DAT",
       "chainId": 201,
       "tags": [
         "aptosis-faucet"
@@ -82,7 +82,7 @@
       "symbol": "ETH",
       "logoURI": "https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/eth.svg",
       "decimals": 9,
-      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::DevCoin::ETH",
+      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::dev_coin::ETH",
       "chainId": 201,
       "tags": [
         "aptosis-faucet"
@@ -93,7 +93,7 @@
       "symbol": "FAR",
       "logoURI": "https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/far.svg",
       "decimals": 7,
-      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::DevCoin::FAR",
+      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::dev_coin::FAR",
       "chainId": 201,
       "tags": [
         "aptosis-faucet"
@@ -104,7 +104,7 @@
       "symbol": "JAIN",
       "logoURI": "https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/jain.svg",
       "decimals": 8,
-      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::DevCoin::JAIN",
+      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::dev_coin::JAIN",
       "chainId": 201,
       "tags": [
         "aptosis-faucet"
@@ -115,7 +115,7 @@
       "symbol": "KNV",
       "logoURI": "https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/knv.svg",
       "decimals": 6,
-      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::DevCoin::KNV",
+      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::dev_coin::KNV",
       "chainId": 201,
       "tags": [
         "aptosis-faucet"
@@ -126,7 +126,7 @@
       "symbol": "KSAM",
       "logoURI": "https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/ksam.svg",
       "decimals": 7,
-      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::DevCoin::KSAM",
+      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::dev_coin::KSAM",
       "chainId": 201,
       "tags": [
         "aptosis-faucet"
@@ -137,7 +137,7 @@
       "symbol": "MO",
       "logoURI": "https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/mo.svg",
       "decimals": 6,
-      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::DevCoin::MO",
+      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::dev_coin::MO",
       "chainId": 201,
       "tags": [
         "aptosis-faucet"
@@ -148,7 +148,7 @@
       "symbol": "NEAR",
       "logoURI": "https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/near.svg",
       "decimals": 7,
-      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::DevCoin::NEAR",
+      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::dev_coin::NEAR",
       "chainId": 201,
       "tags": [
         "aptosis-faucet"
@@ -159,7 +159,7 @@
       "symbol": "SBF",
       "logoURI": "https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/sbf.svg",
       "decimals": 8,
-      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::DevCoin::SBF",
+      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::dev_coin::SBF",
       "chainId": 201,
       "tags": [
         "aptosis-faucet"
@@ -170,7 +170,7 @@
       "symbol": "SBR",
       "logoURI": "https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/sbr.svg",
       "decimals": 6,
-      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::DevCoin::SBR",
+      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::dev_coin::SBR",
       "chainId": 201,
       "tags": [
         "aptosis-faucet"
@@ -181,7 +181,7 @@
       "symbol": "SHAKE",
       "logoURI": "https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/shake.svg",
       "decimals": 6,
-      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::DevCoin::SHAKE",
+      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::dev_coin::SHAKE",
       "chainId": 201,
       "tags": [
         "aptosis-faucet"
@@ -192,7 +192,7 @@
       "symbol": "SHAM",
       "logoURI": "https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/sham.svg",
       "decimals": 6,
-      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::DevCoin::SHAM",
+      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::dev_coin::SHAM",
       "chainId": 201,
       "tags": [
         "aptosis-faucet"
@@ -203,7 +203,7 @@
       "symbol": "SOL",
       "logoURI": "https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/sol.svg",
       "decimals": 9,
-      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::DevCoin::SOL",
+      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::dev_coin::SOL",
       "chainId": 201,
       "tags": [
         "aptosis-faucet"
@@ -214,7 +214,7 @@
       "symbol": "TING",
       "logoURI": "https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/ting.svg",
       "decimals": 7,
-      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::DevCoin::TING",
+      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::dev_coin::TING",
       "chainId": 201,
       "tags": [
         "aptosis-faucet"
@@ -225,7 +225,7 @@
       "symbol": "USDC",
       "logoURI": "https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/usdc.svg",
       "decimals": 6,
-      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::DevCoin::USDC",
+      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::dev_coin::USDC",
       "chainId": 201,
       "tags": [
         "aptosis-faucet"
@@ -236,7 +236,7 @@
       "symbol": "USDT",
       "logoURI": "https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/usdt.svg",
       "decimals": 6,
-      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::DevCoin::USDT",
+      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::dev_coin::USDT",
       "chainId": 201,
       "tags": [
         "aptosis-faucet"
@@ -247,7 +247,7 @@
       "symbol": "WSUI",
       "logoURI": "https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/wsui.svg",
       "decimals": 6,
-      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::DevCoin::WSUI",
+      "address": "0x10cf22de3cef0a6ef68b2da43e1d20c189c033c93a8503a40ee06c0347a11ea0::dev_coin::WSUI",
       "chainId": 201,
       "tags": [
         "aptosis-faucet"
