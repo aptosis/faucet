@@ -2,7 +2,7 @@
 
 use anyhow::*;
 use aptos_cli_config::CliConfig;
-use move_deps::move_core_types::account_address::AccountAddress;
+use move_core_types::account_address::AccountAddress;
 use setup::{generate_coin_list, DevCoin, MoveManifestSimple, Setup};
 use std::{collections::BTreeMap, os::unix::prelude::PermissionsExt};
 

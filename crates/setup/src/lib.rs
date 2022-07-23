@@ -11,7 +11,7 @@
 //! Then run `./scripts/init_tokens.sh`.
 use anyhow::*;
 use coinlist::{ChainID, CoinInfo, CoinList};
-use move_deps::move_core_types::{
+use move_core_types::{
     account_address::AccountAddress, ident_str, identifier::Identifier,
     language_storage::StructTag, parser::parse_struct_tag,
 };
