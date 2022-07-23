@@ -193,12 +193,4 @@ module faucet::dev_coin {
         create_coin<WSUI>(b"Wrapped SUI", 6, 1000000000000000);
     }
     
-    /// CoinType of Aptos.
-    struct APTOS {}
-
-    /// Initializes the APTOS token.
-    public entry fun init_aptos() {
-        create_coin<APTOS>(b"Aptos", 4, 10000000000000);
-    }
-    
 }

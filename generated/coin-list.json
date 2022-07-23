@@ -1,8 +1,16 @@
 {
   "name": "Aptosis Coin List",
   "tags": {},
-  "timestamp": "2022-07-22T01:17:19.167579911Z",
+  "timestamp": "2022-07-23T17:00:09.719663746Z",
   "tokens": [
+    {
+      "name": "Aptos",
+      "symbol": "APTOS",
+      "logoURI": "https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/apt.svg",
+      "decimals": 4,
+      "address": "0x1::TestCoin::TestCoin",
+      "chainId": 201
+    },
     {
       "name": "Avalanche",
       "symbol": "AVAX",
@@ -244,14 +252,6 @@
       "tags": [
         "aptosis-faucet"
       ]
-    },
-    {
-      "name": "Aptos",
-      "symbol": "APTOS",
-      "logoURI": "https://raw.githubusercontent.com/aptosis/aptosis-coin-list/master/assets/devnet/apt.svg",
-      "decimals": 4,
-      "address": "0x1::TestCoin::TestCoin",
-      "chainId": 201
     }
   ],
   "version": {

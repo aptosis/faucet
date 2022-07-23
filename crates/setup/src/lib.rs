@@ -98,7 +98,7 @@ where
         .collect::<Result<Vec<_>>>()?;
     let mut coin_list = CoinList::new("Aptosis Coin List");
     coin_list.tokens = tokens;
-    coin_list.tokens.push(make_test_coin()?);
+    coin_list.tokens.insert(0, make_test_coin()?);
     Ok(coin_list)
 }
 
@@ -120,6 +120,7 @@ impl Setup {
         let coins = coin_list
             .tokens
             .iter()
+            .filter(|coin| coin.symbol != "APTOS")
             .map(|coin| DevCoinInfo::from(coin.clone()))
             .collect::<Vec<_>>();
 
