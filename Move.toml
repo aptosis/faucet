@@ -14,18 +14,8 @@ AptosisMinter = "0xb3dfbce7ba1564267489eba0206ed21ce723c4ba89913fbe18b1bdad81555
 
 [dependencies.mint_wrapper]
 git = "https://github.com/aptosis/mint-wrapper.git"
-rev = "5bd6cc5894f0c0cdb2304a7d49a7ba162f99e49a"
+rev = "0015cc015aabde558489d241ecdf394e829b821c"
 
 [dependencies.deployer]
 git = "https://github.com/DeployDAO/aptos-deployer.git"
-rev = "e40240fce3c15eab6de511337645d6f700d81c9a"
-
-[dependencies.MoveStdlib]
-git = "https://github.com/aptos-labs/aptos-core.git"
-subdir = "aptos-move/framework/move-stdlib"
-rev = "a3143756d498821f4f51a5970c7ea35d483938b3"
-
-[dependencies.AptosFramework]
-git = "https://github.com/aptos-labs/aptos-core.git"
-subdir = "aptos-move/framework/aptos-framework"
-rev = "a3143756d498821f4f51a5970c7ea35d483938b3"
+rev = "ca0dbe7bbe6d2424f761d7b9ca0da217a14c1028"
